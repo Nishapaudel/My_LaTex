@@ -1,0 +1,154 @@
+\documentclass[]{resume-openfont}
+%--------------------------------------------------------------
+% Convenience command - make it easy to fill template
+
+% Create job position command. Parameters: company, position, location, when
+\newcommand{\resumeHeading}[4]{\runsubsection{#1}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine\NoSpace}
+
+% Create education heading. Parameters: Name, degree, location, when
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\descript{#2}\fakeNewLine}
+
+% Parameters: courses
+\newcommand{\courseWork}[1]{\semiBold{Coursework:} #1}
+
+% Parameters: courses
+\newcommand{\teacherAssistant}[1]{\semiBold{Teacher Assistant (TA):} #1}
+
+% Command to create smaller heading: Parameters: title, when
+\newcommand{\resumeSubheading}[2]{\minorSection{#1}\hfill\location{#2}\fakeNewLine\NoSpace}
+
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Profile
+%--------------------------------------------------------------
+\newcommand{\yourName}{Nisha Paudel}
+\newcommand{\yourWebsite}{https://nishapaudel.github.io/My_website/}
+\newcommand{\yourEmail}{paudelbella@gmail.com}
+\newcommand{\yourPhone}{+91 9008967894}
+\newcommand{\githubUserName}{https://github.com/Nishapaudel}
+\newcommand{\linkedInUserName}{https://www.linkedin.com/in/nisha-paudel-837996135/}
+
+\alignProfileTable
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%     \textbf{\href{\yourWebsite}{\Large \yourName}} & 
+%     Email : \href{mailto:\yourEmail}{\yourEmail}
+%     \\
+%     \href{https://github.com/\githubUserName}{GitHub://\githubUserName} & 
+%     Mobile : \yourPhone
+%     \\
+%     \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn://\linkedInUserName} & Website : \href{\yourWebsite}{abdullaharif.tech}
+%     \\
+% \end{tabular*}
+% \smallSep
+
+\begin{center}
+    \textbf{\Huge \scshape \yourName} \\ \vspace{1pt}
+    \small \yourPhone $|$ \href{mailto:\yourEmail}{\underline{\yourEmail}} $|$ 
+    \href{https://linkedin.com/in/\linkedInUserName}{\underline{linkedIn/\linkedInUserName}} $|$
+    \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}}
+\end{center}
+
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+\section{Work Experience}
+\resumeHeading{CSIR CCMB  }{Bioinformatics Trainee}{Hyderabad, India}{Nov 2020 – }
+\begin{emize}
+    \item \Bold{  Centre for Cellular and Molecular Biology , Ministry of Science and Technology Government of India  \href{ https://www.ccmb.res.in/About-CCMB/Profile}{\underline} $|$   
+    }
+    %  \item Here is another bullet that I might choose to uncomment for some jobs
+    \item \semiBold{ Python scripting for data curation, analysis and visualization} 
+     \item \semiBold{ NGS data analysis} 
+     \item \semiBold{  Meta data analysis on genomics and epigenomics} 
+    
+\end{nee}
+\sectionsep
+
+\resumeHeading{Nepal Korea Friendship Hospita}{Research Student }{Kathmandu, Nepal}{Dec 2016 - June 2017}
+\begin{nee}
+ \item \semiBold{  Examined the microbes present in medical devices} 
+ \item \semiBold{ Isolated them and observed drug resistivity pattern and Performed routine microbiology work} 
+
+    
+\end{nee}
+\sectionsep
+
+
+%--------------------------------------------------------------
+%     Education
+%--------------------------------------------------------------
+\section{Education}
+\educationHeading{Bangalore University }{MSc. Biotechnology} {Bangalore, India} { Aug 2018 - Oct 2020 }
+
+\Dissertation\Bold {"Network Pharmacology of Lycopene and Molecular Docking with Top Hub Proteins"}
+\item\semiBold {Achieved grade: 7.79GPA (First Division with Distinction)} 
+\item\semiBold{ Ranked 4th in class}
+% \courseWork{Data Structures and Algorithms; Operating Systems;  Computer Security; Software Testing; Advanced Networking; Big Data Analytics}s
+
+\educationHeading{Tribhuvan University }{BSc. Microbiology} {Kathmandu, Nepal} { Sept 2013 - Nov 2017 }
+
+\Dissertation\Bold {"Prevalence of Multi Drug Resistant Bacteria on Environmental and Medical-Device Surfaces at Nepal-Korea Friendship Hospital"}
+ 
+\sectionsep
+
+%--------------------------------------------------------------
+%     Projects
+%--------------------------------------------------------------
+\section{Awards}
+
+\begin{nee}
+ \item \semiBold{ {Silver Jubilee Scholarship Scheme (SJSS) (2018-2020)}{ ICCR (Indian Council of Cultural Relations) Foreign Ministry for pursuing the master course in India}} 
+ 
+ \item \semiBold {{2nd in Inter-college quiz completion 2016  Awarded by honorable Education Minister}} 
+
+    
+\end{nee}
+\sectionsep
+
+
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+\section{Skills}
+\begin{resumeSkillList}
+    \item{
+        \singleItem{Programmimg : }{}Python,    R(basic level) and Bash scripting }
+        \\
+        \singleItem{ Microbiology and Molecular Biology Laboratory skills : }{Conventional PCR, rt2-PCR ,rDNA technology,Blotting experiments,Florescence Microscopy,Enzyme Activity Assay, Microbiota profiling }
+        \\
+        \singleItem{Extra Professional Skills:}{Photography,Graphics Design , LaTex}
+    }
+\end{resumeSkillList}
+%--------------------------------------------------------------
+%     Publications 
+%--------------------------------------------------------------
+\section{Publications and Presentation}
+\educationHeading {Publications }{ 'Network pharmacology of lycopene and Molecular Docking with Top Hub Proteins', Nisha Paudel, Umme Hani, Nagendra Prasad Awasthi, Manjunatha Hanumantappa, Rangaswamy Lakshminarayan bioRxiv 2021.03.04.433249; doi: https://doi.org/10.1101/2021.03.04.433249} 
+
+
+\educationHeading {Poster presentation }{ N.Paudel/B.Lekhak/,N.P.AwasthiandA.Acharya(6-11June2018).“PrevalenceofMultiDrugResistantBacteriaonEnviron-mentalandMedical-DeviceSurfaces.”In:Atlanta,Georgia,USAControlNumber:2141.} 
+  
+\sectionsep
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+\section{Referance}
+\resumeHeading{Dr. Divya Tej Sowpati }
+\begin{nee}
+    \item \Bold{  Principal Scirntist, CSIRCCMB  \href{ https://www.ccmb.res.in/About-CCMB/Profile}{\underline} $|$   
+    }
+    %  \item Here is another bullet that I might choose to uncomment for some jobs
+    \item \semiBold{tej@ccmb.res.in} 
+   
+    
+
+\sectionsep
+
+
+
+    
+\end{resumeSkillList}
+\end{document}
